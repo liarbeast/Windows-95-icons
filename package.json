@@ -1,0 +1,25 @@
+{
+  "name": "windows-95-icons",
+  "version": "1.0.0",
+  "description": "A GUI for all the beautiful Windows 95 icons.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liarbeast/Windows-95-icons.git"
+  },
+  "author": "Lars Haasnoot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liarbeast/Windows-95-icons/issues"
+  },
+  "homepage": "https://github.com/liarbeast/Windows-95-icons#readme"
+}
