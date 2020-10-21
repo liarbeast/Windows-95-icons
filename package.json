@@ -1,0 +1,22 @@
+{
+  "name": "windows-95-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liarbeast/Windows-95-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liarbeast/Windows-95-icons/issues"
+  },
+  "homepage": "https://github.com/liarbeast/Windows-95-icons#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
