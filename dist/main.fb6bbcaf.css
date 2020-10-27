@@ -1,4 +1,15 @@
 @charset "UTF-8";
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.window {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid #393939;
+  border-right: 2px solid #393939;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -57,7 +68,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "w95fa";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5743,7 +5754,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "w95fa";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5845,7 +5856,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "w95fa";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10169,6 +10180,13 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+@font-face {
+  font-family: "w95fa";
+  src: url("/w95fa.6ff06818.woff2") format("woff2"), url("/w95fa.db38cd0a.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 /*# sourceMappingURL=/main.fb6bbcaf.css.map */

@@ -5,6 +5,26 @@ $theme-colors: (
   "teal": #008080,
 );
 
+$font-family-base: (
+ 'w95fa'
+);
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@mixin window__border {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid #393939;
+  border-right: 2px solid #393939;
+}
+
+.window{
+  @include window__border;
+}
+
+
 
 
 // Import the Bootstrap SCSS so I can edit it
