@@ -10225,7 +10225,7 @@ html {
   display: inline-block;
   padding-right: 4px;
 }
-.menubar li::first-letter {
+.menubar .underline {
   text-decoration: underline;
 }
 
