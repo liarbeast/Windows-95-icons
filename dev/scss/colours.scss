@@ -2,6 +2,7 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 
+
 $theme-colors: (
   "primary": #C0C0C0,
   "active": #000082,
@@ -9,5 +10,11 @@ $theme-colors: (
   "teal": #008080,
   "ipad": #f23124,
 );
+
+
+$colors: (
+  "active": $active,
+) !default;
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,15 +1,16 @@
-@import './../scss/fonts.scss';
-@import './../scss/colours.scss';
+@import "fonts.scss";
+@import "colours.scss";
 
-$font-family-base: (
- 'w95fa'
-);
+$font-family-base: 
+('w95fa');
 
-
-html{
+html {
   cursor: url('../assets/cursors/cursor__default.gif'), auto;
-} 
+}
 
+::selection {
+  background-color: $active;
+}
 
 @mixin borders__window {
   border-top: 2px solid white;
@@ -25,35 +26,35 @@ html{
   border-right: 1px solid white;
 }
 
-.window{
+.window {
   @include borders__window;
 }
 
-.titlebar{
+.titlebar {
   padding-top: 4px;
   padding-bottom: 4px;
   font-weight: bolder;
 }
 
-.menubar{
-  ul{
+.menubar {
+  ul {
     list-style-type: none;
     padding: 2px 0px 2px 0px;
     margin: 0;
-  } 
-  
-  li{
-    display:inline-block;
+  }
+
+  li {
+    display: inline-block;
     padding-right: 4px;
   }
 
-  li::first-letter{
+  li::first-letter {
     text-decoration: underline;
   }
 
 }
 
-.icon--logo::before{
+.icon--logo::before {
   content: " ";
   background-image: url(../assets/Smiley.gif);
   height: 24px;
@@ -65,7 +66,7 @@ html{
   margin-right: 8px;
 }
 
-.view__title{
+.view__title {
   @include borders__indented;
 }
 
