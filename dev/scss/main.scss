@@ -1,31 +1,72 @@
-$theme-colors: (
-  "primary": #C0C0C0,
-  "active": #000082,
-  "info": #FFFFD8,
-  "teal": #008080,
-);
+@import './../scss/fonts.scss';
+@import './../scss/colours.scss';
 
 $font-family-base: (
  'w95fa'
 );
 
-body{
-  font-family: 'Times New Roman', Times, serif;
-}
 
-@mixin window__border {
+html{
+  cursor: url('../assets/cursors/cursor__default.gif'), auto;
+} 
+
+
+@mixin borders__window {
   border-top: 2px solid white;
   border-left: 2px solid white;
   border-bottom: 2px solid #393939;
   border-right: 2px solid #393939;
 }
 
-.window{
-  @include window__border;
+@mixin borders__indented {
+  border-top: 1px solid #393939;
+  border-left: 1px solid #393939;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
 }
 
+.window{
+  @include borders__window;
+}
 
+.titlebar{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bolder;
+}
 
+.menubar{
+  ul{
+    list-style-type: none;
+    padding: 2px 0px 2px 0px;
+    margin: 0;
+  } 
+  
+  li{
+    display:inline-block;
+    padding-right: 4px;
+  }
 
-// Import the Bootstrap SCSS so I can edit it
-@import "node_modules/bootstrap/scss/bootstrap.scss";
+  li::first-letter{
+    text-decoration: underline;
+  }
+
+}
+
+.icon--logo::before{
+  content: " ";
+  background-image: url(../assets/Smiley.gif);
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.view__title{
+  @include borders__indented;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

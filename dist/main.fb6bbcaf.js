@@ -189,18 +189,11 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"scss/fonts.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./../fonts/w95fa.woff2":[["w95fa.6ff06818.woff2","fonts/w95fa.woff2"],"fonts/w95fa.woff2"],"./../fonts/w95fa.woff":[["w95fa.db38cd0a.woff","fonts/w95fa.woff"],"fonts/w95fa.woff"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/main.js":[function(require,module,exports) {
+},{"./../fonts/w95fa.woff2":[["w95fa.6ff06818.woff2","fonts/w95fa.woff2"],"fonts/w95fa.woff2"],"./../fonts/w95fa.woff":[["w95fa.db38cd0a.woff","fonts/w95fa.woff"],"fonts/w95fa.woff"],"./../assets/cursors/cursor__default.gif":[["cursor__default.ff6a14c2.gif","assets/cursors/cursor__default.gif"],"assets/cursors/cursor__default.gif"],"./../assets/Smiley.gif":[["Smiley.5a351c51.gif","assets/Smiley.gif"],"assets/Smiley.gif"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/main.js":[function(require,module,exports) {
 "use strict";
 
 require("./../scss/main.scss");
-
-require("./../scss/fonts.scss");
-},{"./../scss/main.scss":"scss/main.scss","./../scss/fonts.scss":"scss/fonts.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../scss/main.scss":"scss/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
