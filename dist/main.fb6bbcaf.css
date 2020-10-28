@@ -10334,6 +10334,10 @@ html {
   cursor: url("/cursor__default.ff6a14c2.gif"), auto;
 }
 
+::selection {
+  background-color: #000082;
+}
+
 .window {
   border-top: 2px solid white;
   border-left: 2px solid white;

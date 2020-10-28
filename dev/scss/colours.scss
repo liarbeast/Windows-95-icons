@@ -11,10 +11,7 @@ $theme-colors: (
   "ipad": #f23124,
 );
 
-
-$colors: (
-  "active": $active,
-) !default;
+$active:  #000082;
 
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
