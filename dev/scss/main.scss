@@ -10,6 +10,8 @@ html {
 
 ::selection {
   background-color: $active;
+  opacity: 1;
+  color: white;
 }
 
 @mixin borders__window {
