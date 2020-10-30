@@ -2,6 +2,7 @@
 @import "colours.scss";
 @import "overrides.scss";
 @import "scrollbar.scss";
+@import "borders.scss";
 
 $font-family-base: ('w95fa');
 
@@ -13,20 +14,6 @@ html {
 
 body {
   user-select: none;
-}
-
-@mixin borders__window {
-  border-top: 2px solid $white;
-  border-left: 2px solid $white;
-  border-bottom: 2px solid $windows500;
-  border-right: 2px solid $windows500;
-}
-
-@mixin borders__indented {
-  border-top: 2px solid $windows500;
-  border-left: 2px solid $windows500;
-  border-bottom: 2px solid $white;
-  border-right: 2px solid $white;
 }
 
 .window {

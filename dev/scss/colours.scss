@@ -9,10 +9,9 @@ $theme-colors: (
   "info": #FFFFD8,
 );
 
-
 $windows100: #E1E3E5;
 $windows300: #C3C7CB;
-$windows500: #868A8E;
+$windows500: #4D4D4D;
 $white: #FFFFFF;
 $black: #000000;
 $info: #FFFFD8;
@@ -20,5 +19,3 @@ $active:  #000082;
 $active__border: #fffd38;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-
-

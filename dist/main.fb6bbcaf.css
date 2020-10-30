@@ -32636,6 +32636,10 @@ h3 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  border-bottom: 2px solid #4D4D4D;
+  border-right: 2px solid #4D4D4D;
   background-color: #C3C7CB;
   border-radius: 0px;
 }
@@ -32679,8 +32683,8 @@ body {
 .window {
   border-top: 2px solid #FFFFFF;
   border-left: 2px solid #FFFFFF;
-  border-bottom: 2px solid #868A8E;
-  border-right: 2px solid #868A8E;
+  border-bottom: 2px solid #4D4D4D;
+  border-right: 2px solid #4D4D4D;
   background-color: #C3C7CB;
 }
 
@@ -32709,8 +32713,8 @@ body {
 }
 
 .workarea {
-  border-top: 2px solid #868A8E;
-  border-left: 2px solid #868A8E;
+  border-top: 2px solid #4D4D4D;
+  border-left: 2px solid #4D4D4D;
   border-bottom: 2px solid #FFFFFF;
   border-right: 2px solid #FFFFFF;
   background-color: #FFFFFF;
@@ -32739,8 +32743,8 @@ body {
 }
 
 .content__header {
-  border-top: 2px solid #868A8E;
-  border-left: 2px solid #868A8E;
+  border-top: 2px solid #4D4D4D;
+  border-left: 2px solid #4D4D4D;
   border-bottom: 2px solid #FFFFFF;
   border-right: 2px solid #FFFFFF;
 }
