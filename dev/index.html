@@ -23,8 +23,8 @@
 
 
 
-<body class="bg-teal">
-  <div class="window container bg-primary">
+<body unselectable="on" class="bg-teal">
+  <div class="window container bg-primary" id="drag">
     <div class="titlebar row d-flex justify-content-between align-items-center bg-active text-white">
       <div class="titlebar__name col-auto icon--logo d-flex align-items-center">Windows 95</div>
       <div class="titlebar__controls col-auto">
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="menubar row">
-      <div class="menubar__controls col-9">
+      <div class="menubar__nav col">
         <ul>
           <li><span class="underline">F</span>ile</li>
           <li><span class="underline">I</span>nfo</li>
@@ -44,27 +44,32 @@
         </ul>
       </div>
     </div>
-    <div class="view__headers row">
-      <div class="col-6">
-        <div class="view__title">All Categories</div>
-      </div>      
-      <div class="col-6">
-        <div class="view__title">All Categories</div>
-      </div>
+    <div class="content row">
 
-    <div class="card">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            ..
-          </div>
-          <div class="col">
-            ..
-          </div>
-          <div class="col">
-            ..
-          </div>
+      <div class="col-2 mb-2">
+        <div class="content__header pl-1">All Categories</div>
+      </div>  
+      <div class="col-10 mb-2">
+        <div class="content__header pl-1">All Categories</div>
+      </div>      
+      
+      <div class="col-2 mb-2">
+        <div class="categories workarea">
+          <ul>
+            <li><span class="selected">All categories</span></li>
+            <li>Batteries</li>
+            <li>Books</li>
+            <li>Briefcases</li>
+            <li>Clocks</li>
+            <li>Computers</li>
+            <li>Cursors & Mouse</li>
+            <li>Devices</li>
+            <li>Dialogue</li>
+          </ul>
         </div>
+      </div>  
+      <div class="col-10 mb-2">
+        <div class="results workarea">Icons will appear here</div>
       </div>
     </div>
 
@@ -84,6 +89,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
+  <script src="js/drag.js"></script>
+
 
 </body>
 
