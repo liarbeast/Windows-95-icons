@@ -37,7 +37,6 @@ body{
 
 .window {
   @include borders__window();
-  transition: 0.5s
 }
 
 .titlebar {
