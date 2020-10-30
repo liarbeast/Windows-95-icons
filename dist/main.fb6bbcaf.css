@@ -10201,6 +10201,7 @@ html {
   background-color: #000082;
   opacity: 1;
   color: white;
+  text-decoration-color: white;
 }
 
 .window {
@@ -10224,9 +10225,6 @@ html {
 .menubar li {
   display: inline-block;
   padding-right: 4px;
-}
-.menubar .underline {
-  text-decoration: underline;
 }
 
 .icon--logo::before {

@@ -11,6 +11,7 @@ html {
   background-color: $active;
   opacity: 1;
   color: white;
+  text-decoration-color: white;
 }
 
 @mixin borders__window {
@@ -48,14 +49,15 @@ html {
     display: inline-block;
     padding-right: 4px;
   }
+}
 
   .underline{
     text-decoration: underline;
   }
-  // li::first-letter {
-  //   text-decoration: underline;
-  // }
-}
+
+  .underline::selection{
+    text-decoration: none;
+  }
 
 .icon--logo::before {
   content: " ";
