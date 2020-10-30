@@ -1,12 +1,24 @@
 $theme-colors: (
-  "primary": #C0C0C0,
+  "windows100": #E1E3E5,
+  "windows200": #C0C0C0,
+  "windows300": #868A8E,
+  "white": #FFFFFF,
+  "black": #C0C0C0,
   "active": #000082,
+  "active__border": #fffd38,
   "info": #FFFFD8,
-  "teal": #008080,
 );
 
-$active:  #000082;
-$primary: #C0C0C0;
 
+$windows100: #E1E3E5;
+$windows300: #C3C7CB;
+$windows500: #868A8E;
+$white: #FFFFFF;
+$black: #000000;
+$info: #FFFFD8;
+$active:  #000082;
+$active__border: #fffd38;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
