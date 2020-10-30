@@ -32677,6 +32677,10 @@ html {
   image-rendering: pixelated;
 }
 
+a:hover {
+  cursor: url("/cursor__hover.1008da9e.gif"), auto;
+}
+
 body {
   user-select: none;
 }
@@ -32751,6 +32755,10 @@ body {
 
 .icon {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .icon a {
   color: #000000;
@@ -32758,6 +32766,10 @@ body {
 .icon a:hover {
   color: #000000;
   text-decoration: none;
+}
+
+.icon__name {
+  display: inline-block;
 }
 
 /*!
