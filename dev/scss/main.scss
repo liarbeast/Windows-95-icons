@@ -10,6 +10,7 @@ html {
   cursor: url('../assets/cursors/cursor__default.gif'), auto;
   background-color: #008080;
   color: $black;
+  image-rendering: pixelated;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .window {
-  @include borders__window();
+  @include borders__default();
   background-color: $windows300;
 }
 
@@ -43,15 +44,15 @@ body {
 .categories {
   ul {
     list-style-type: none;
-    padding: 2px 0px 2px 0px;
+    padding: 4px 0px 4px 0px;
     margin: 0;
     overflow: auto; //This makes sure we have scroll bars.
-    height: 50px;
+    height: 400px;
   }
 }
 
 .workarea {
-  @include borders__indented();
+  @include borders__onwhite();
   background-color: $white;
 }
 
@@ -72,7 +73,6 @@ body {
   width: 24px;
   background-repeat: no-repeat;
   background-size: cover;
-  image-rendering: pixelated;
   display: inline-block;
   margin-right: 8px;
 }
@@ -81,13 +81,17 @@ body {
   @include borders__indented;
 }
 
+.icon {
+  text-align: center;
 
+  a {
+    color: $black;
+  }
 
-
-
-
-
-
-
+  a:hover {
+    color: $black;
+    text-decoration: none;
+  }
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

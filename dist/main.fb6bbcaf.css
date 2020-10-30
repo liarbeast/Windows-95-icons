@@ -32674,6 +32674,7 @@ html {
   cursor: url("/cursor__default.ff6a14c2.gif"), auto;
   background-color: #008080;
   color: #000000;
+  image-rendering: pixelated;
 }
 
 body {
@@ -32706,17 +32707,17 @@ body {
 
 .categories ul {
   list-style-type: none;
-  padding: 2px 0px 2px 0px;
+  padding: 4px 0px 4px 0px;
   margin: 0;
   overflow: auto;
-  height: 50px;
+  height: 400px;
 }
 
 .workarea {
   border-top: 2px solid #4D4D4D;
   border-left: 2px solid #4D4D4D;
-  border-bottom: 2px solid #FFFFFF;
-  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #E1E3E5;
+  border-right: 2px solid #E1E3E5;
   background-color: #FFFFFF;
 }
 
@@ -32737,7 +32738,6 @@ body {
   width: 24px;
   background-repeat: no-repeat;
   background-size: cover;
-  image-rendering: pixelated;
   display: inline-block;
   margin-right: 8px;
 }
@@ -32747,6 +32747,17 @@ body {
   border-left: 2px solid #4D4D4D;
   border-bottom: 2px solid #FFFFFF;
   border-right: 2px solid #FFFFFF;
+}
+
+.icon {
+  text-align: center;
+}
+.icon a {
+  color: #000000;
+}
+.icon a:hover {
+  color: #000000;
+  text-decoration: none;
 }
 
 /*!

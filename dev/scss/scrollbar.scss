@@ -15,7 +15,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    @include borders__window();
+    @include borders__default();
     background-color: $windows300;
     border-radius: 0px;
 }

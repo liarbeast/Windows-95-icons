@@ -21,12 +21,10 @@
 
 <link rel="stylesheet" href="/main.fb6bbcaf.css"></head>
 
-
-
-<body unselectable="on">
+<body>
   <div class="window container" id="drag">
     <div class="titlebar row d-flex justify-content-between align-items-center bg-active text-white" id="drag__handle">
-      <div class="titlebar__name col-auto icon--logo d-flex align-items-center">Windows 95</div>
+      <title class="titlebar__name col-auto icon--logo d-flex align-items-center">Windows 95</title>
       <div class="titlebar__controls col-auto">
         <div class="row">
           <div class="col">hi</div>
@@ -35,26 +33,26 @@
         </div>
       </div>
     </div>
-    <div class="menubar row">
-      <div class="menubar__nav col">
+    <section class="menubar row">
+      <nav class="menubar__nav col">
         <ul>
           <li><span class="underline">F</span>ile</li>
           <li><span class="underline">I</span>nfo</li>
           <li><span class="underline">A</span>bout</li>
         </ul>
-      </div>
-    </div>
-    <div class="content row">
+      </nav>
+    </section>
 
+    <section class="content row">
       <div class="col-2 mb-2">
         <div class="content__header pl-1">All Categories</div>
-      </div>  
+      </div>
       <div class="col-10 mb-2">
         <div class="content__header pl-1">All Categories</div>
-      </div>      
-      
+      </div>
+
       <div class="col-2 mb-2">
-        <div class="categories workarea">
+        <nav class="categories workarea pl-1">
           <ul>
             <li><span class="selected">All categories</span></li>
             <li>Batteries</li>
@@ -66,12 +64,33 @@
             <li>Devices</li>
             <li>Dialogue</li>
           </ul>
-        </div>
-      </div>  
-      <div class="col-10 mb-2">
-        <div class="results workarea">Icons will appear here</div>
+        </nav>
       </div>
-    </div>
+      <div class="col-10 mb-2">
+        <div class="results workarea pl-1">
+          <div class="row">
+            <div class="icon col-2"><a href="#"><img src="/icon1.602bbbe2.png">
+              <p class="icon__name">Icon link</p>
+            </a></div>
+            <div class="icon col-2"><img src="/icon2.697f4017.png">
+              <p class="icon__name">Icon</p>
+            </div>
+            <div class="icon col-2"><img src="/icon3.6c9adfcc.png">
+              <p class="icon__name">Icon</p>
+            </div>
+            <div class="icon col-2"><img src="/icon1.602bbbe2.png">
+              <p class="icon__name">Icon</p>
+            </div>
+            <div class="icon col-2"><img src="/icon2.697f4017.png">
+              <p class="icon__name">Icon</p>
+            </div>
+            <div class="icon col-2"><img src="/icon3.6c9adfcc.png">
+              <p class="icon__name">Icon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </div>
 
