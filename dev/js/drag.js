@@ -1,3 +1,5 @@
+import './../../node_modules/draggable/dist/draggable.min.js'
+
 var Draggable = require ('Draggable');
 var element = document.getElementById('drag');
 var handle = document.getElementById('drag__handle');

@@ -1,24 +1,16 @@
 @import "fonts.scss";
 @import "colours.scss";
 @import "overrides.scss";
+@import "scrollbar.scss";
 
 $font-family-base: ('w95fa');
-
-
 
 html {
   cursor: url('../assets/cursors/cursor__default.gif'), auto;
 }
 
-body{
+body {
   user-select: none;
-}
-
-::selection {
-  background-color: $active;
-  opacity: 1;
-  color: white;
-  text-decoration-color: white;
 }
 
 @mixin borders__window {
@@ -63,19 +55,17 @@ body{
     list-style-type: none;
     padding: 2px 0px 2px 0px;
     margin: 0;
-  }
-
-  li {
-    padding-right: 4px;
+    overflow: auto; //This makes sure we have scroll bars.
+    height: 50px;
   }
 }
 
-.workarea{
+.workarea {
   @include borders__indented();
   background-color: white;
 }
 
-.selected{
+.selected {
   color: white;
   background-color: $active;
   border: 1px dotted #fffd38;
@@ -83,10 +73,6 @@ body{
 
 .underline {
   text-decoration: underline;
-}
-
-.underline::selection {
-  text-decoration: none;
 }
 
 .icon--logo::before {
@@ -104,5 +90,14 @@ body{
 .content__header {
   @include borders__indented;
 }
+
+
+
+
+
+
+
+
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

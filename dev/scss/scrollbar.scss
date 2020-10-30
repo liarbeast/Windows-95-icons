@@ -1,0 +1,42 @@
+/* Scrollbar frame */
+::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-image: url('../assets/scroll/scrolltrack__pattern.png');
+    background-size: 4px;
+    image-rendering: pixelated;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Buttons */
+  ::-webkit-scrollbar-button:vertical:end:increment {
+    background-image: url('../assets/scroll/scroll__down.png');
+  }
+  
+  ::-webkit-scrollbar-button:active:vertical:end:increment {
+    background-image: url('../assets/scroll/scroll__down--active.png');
+  }
+  
+  ::-webkit-scrollbar-button:vertical:start:decrement {
+    background-image: url('../assets/scroll/scroll__up.png');
+  }
+  
+  ::-webkit-scrollbar-button:active:vertical:start:decrement {
+    background-image: url('../assets/scroll/scroll__up--active.png');
+  }
+  
+  ::-webkit-scrollbar-button:vertical:end:increment,
+  ::-webkit-scrollbar-button:vertical:start:decrement {
+    display: block;
+    background-image: contain;
+    width: 16px;
+    height: 16px;
+    image-rendering: pixelated;
+  }

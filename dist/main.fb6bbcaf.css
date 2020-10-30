@@ -20364,19 +20364,55 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/* Scrollbar frame */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-image: url("/scrolltrack__pattern.0b809fc3.png");
+  background-size: 4px;
+  image-rendering: pixelated;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Buttons */
+::-webkit-scrollbar-button:vertical:end:increment {
+  background-image: url("/scroll__down.f26fe176.png");
+}
+
+::-webkit-scrollbar-button:active:vertical:end:increment {
+  background-image: url("/scroll__down--active.54b17947.png");
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background-image: url("/scroll__up.1efff595.png");
+}
+
+::-webkit-scrollbar-button:active:vertical:start:decrement {
+  background-image: url("/scroll__up--active.c362eaf3.png");
+}
+
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement {
+  display: block;
+  background-image: contain;
+  width: 16px;
+  height: 16px;
+  image-rendering: pixelated;
+}
+
 html {
   cursor: url("/cursor__default.ff6a14c2.gif"), auto;
 }
 
 body {
   user-select: none;
-}
-
-::selection {
-  background-color: #000082;
-  opacity: 1;
-  color: white;
-  text-decoration-color: white;
 }
 
 .window {
@@ -20406,9 +20442,8 @@ body {
   list-style-type: none;
   padding: 2px 0px 2px 0px;
   margin: 0;
-}
-.categories li {
-  padding-right: 4px;
+  overflow: auto;
+  height: 50px;
 }
 
 .workarea {
@@ -20427,10 +20462,6 @@ body {
 
 .underline {
   text-decoration: underline;
-}
-
-.underline::selection {
-  text-decoration: none;
 }
 
 .icon--logo::before {
